@@ -1,6 +1,6 @@
 Adds a ping to menu bar, like this:
 
-<img width="178" alt="image" src="https://github.com/user-attachments/assets/8204baeb-066b-480f-a23b-94d3a38cc54d" />
+<img width="123" alt="image" src="https://github.com/user-attachments/assets/4e1baabc-eccc-4f10-853f-56a5dce3a401" />
 
 Shows ping to google.com every second. It helps to track if my connection has broken.
 
