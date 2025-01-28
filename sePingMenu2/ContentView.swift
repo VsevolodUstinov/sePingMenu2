@@ -1,24 +1,20 @@
-//
-//  ContentView.swift
-//  sePingMenu2
-//
-//  Created by Seva Ustinov on 1/27/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello from sePingMenu2!")
+                .font(.headline)
+                .padding()
+            Text("Check your menu bar on the top-right for the ping results.")
+                .padding()
         }
-        .padding()
+        .frame(width: 300, height: 200)
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
